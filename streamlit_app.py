@@ -59,7 +59,7 @@ elif menu == "Studi Kasus":
 #===================================
 #ANALISIS GAS IDEAL
 #===================================
-     if pilihan == "Analisis Gas Ideal":
+if pilihan == "Analisis Gas Ideal":
         
         st.subheader("🧪 Studi Kasus Gas Ideal")
         
