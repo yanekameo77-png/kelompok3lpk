@@ -58,6 +58,7 @@ elif menu == "Studi Kasus":
 #ANALISIS GAS IDEAL
 #===================================
 if pilihan == "Analisis Gas Ideal":
+    
     st.subheader("🧪 Studi Kasus Gas Ideal")
 
     P = st.number_input("Tekanan (atm)", value=1.0)
@@ -86,9 +87,9 @@ if pilihan == "Analisis Gas Ideal":
 elif pilihan == "Simulasi Massa Jenis Gas":
 
     st.title("Simulasi Gas Ideal Interaktif")
-
-st.write("""
-Aplikasi ini menghitung massa jenis gas menggunakan persamaan gas ideal.
+    
+    st.write("""
+    Aplikasi ini menghitung massa jenis gas menggunakan persamaan gas ideal.
 
 Pengguna dapat mengubah:
 - tekanan (atm)
