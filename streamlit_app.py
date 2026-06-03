@@ -128,7 +128,7 @@ elif menu == "Studi Kasus":
         #KECEPATAN ANIMASI
         #===================
 
-        kecepatan = max(1, 12 - (T / 100))
+        kecepatan = max(0.5, 8 - (T / 150))
 
         # =======================
         # PENJELASAN
@@ -171,7 +171,7 @@ elif menu == "Studi Kasus":
 
             border-radius:20px;
 
-            backround:
+            background:
             radial-gradient(circle,
             #1e3a8a,
             #020617);
@@ -203,20 +203,20 @@ elif menu == "Studi Kasus":
         }}
 
         .b2 {{
-            animation: gerak2 {kecepatan*0,8}s linear infinite alternate;
+            animation: gerak2 {kecepatan*0.8}s linear infinite alternate;
         }}
 
         .b3 {{
-            animation:gerak3 {kecepatan*1,2}s linear infinite alternate;
+            animation:gerak3 {kecepatan*1.2}s linear infinite alternate;
         }}
 
         .b4 {{
-            animation: gerak4 {kecepatan*0,6}s linear infinite alternate;
+            animation: gerak4 {kecepatan*0.6}s linear infinite alternate;
         }}
         @keyframes gerak1 {{
 
             from {{
-                tranform: translate(0px,0px);
+                transform: translate(0px,0px);
             }}
 
             to {{
@@ -264,7 +264,7 @@ elif menu == "Studi Kasus":
             }}
 
             100% {{
-                tranform: translate(50px,260px);
+                transform: translate(50px,260px);
             }}
         }}
 
