@@ -319,7 +319,7 @@ elif menu == "Studi Kasus":
 
         component.html(
             html_code,
-            heigt=430
+            height=430
         )
 
         #======================
