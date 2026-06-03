@@ -85,7 +85,7 @@ if pilihan == "Analisis Gas Ideal":
 # ====================================
 elif pilihan == "Simulasi Massa Jenis Gas":
 
-st.title("Simulasi Gas Ideal Interaktif")
+    st.title("Simulasi Gas Ideal Interaktif")
 
 st.write("""
 Aplikasi ini menghitung massa jenis gas menggunakan persamaan gas ideal.
@@ -439,7 +439,6 @@ if st.button("✨ Tampilkan Hasil"):
 # ====================================
 
 assert hasil > 0, "Hasil tidak boleh negatif"
-
 # =========================
 # BOYLE
 # =========================
