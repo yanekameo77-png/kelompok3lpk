@@ -413,6 +413,8 @@ elif menu == "Studi Kasus":
 
                 Maka massa jenis gas adalah:
 
+                <b>{hasil:.2f} g/L</b>
+
                 </p>
 
                 </div>
