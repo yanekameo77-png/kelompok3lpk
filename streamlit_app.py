@@ -317,7 +317,7 @@ elif menu == "Studi Kasus":
 
         st.subheader("🌌 Simulasi Pergerakan Partikel")
 
-        component.html(
+        components.html(
             html_code,
             height=430
         )
