@@ -439,6 +439,10 @@ if st.button("✨ Tampilkan Hasil"):
 # ====================================
 
 assert hasil > 0, "Hasil tidak boleh negatif"
+# AKHIR BLOK:
+# elif pilihan == "Simulasi Massa Jenis Gas"
+# dan juga akhir blok:
+# elif menu == "Studi Kasus"
 # =========================
 # BOYLE
 # =========================
