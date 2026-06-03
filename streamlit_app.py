@@ -351,9 +351,6 @@ elif menu == "Studi Kasus":
             rf"\rho=\frac{{({P})({n})}}{{({R})({T})}}"
         )
 
-        st.latex(
-            rf"\rho={hasil:.2f}\ g/L"
-        )
 
         #==========================
         # TOMBOL HASIL + KESIMPULAN
