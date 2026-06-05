@@ -539,6 +539,17 @@ elif menu == "Regresi Linear":
 
         st.dataframe(df)
 
+#========================
+# Kotak Saran
+#========================
+elif menu == "Kotak Saran":
+
+    st.subheader("Kotak Saran📬")
+
+    st.latex(r" ")
+
+
+
 #=========================
 # LATAR BELAKANG APK
 #=========================
@@ -560,9 +571,6 @@ elif menu == "Tentang Aplikasi":
         pembelajaran digital yang mendukung efisiensi dan pemanfaatan teknologi
         dalam bidang kimia analisis.
         """)
-#========================
-# Kotak Saran
-#========================
 
 # =========================
 # FOOTER
