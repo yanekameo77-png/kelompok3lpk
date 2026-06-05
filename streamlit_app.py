@@ -544,7 +544,7 @@ elif menu == "Regresi Linear":
 #=========================
 elif menu == "Tentang Aplikasi":
 
-    st.tittle("Tentang Aplikasi ini✨")
+    st.title("Tentang Aplikasi ini✨")
     
     st.write("""
         Kalkulator gas ideal merupakan aplikasi berbasis web yang dirancang untuk 
