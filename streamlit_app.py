@@ -33,6 +33,11 @@ if menu == "Home":
 
     st.subheader("👋 Selamat Datang")
 
+    st.image(
+        "https://github.com/yanekameo77-png/kelompok3lpk/blob/1f412a1ec3730cdf41f08e36ff75efcb915f58d4/.github/ChatGPT%20Image%205%20Jun%202026%2C%2022.06.12.png",
+        width=300
+    )
+
 
     st.markdown("""
     ### 🔬 Fitur:
