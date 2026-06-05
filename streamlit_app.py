@@ -555,9 +555,10 @@ elif menu == "Kotak Saran":
 #=========================
 elif menu == "Tentang Aplikasi":
 
-    st.title("Tentang Aplikasi ini✨")
+    st.title("✨Tentang Aplikasi ini")
     
     st.write("""
+        🧪 Kalkulator Gas Ideal
         Kalkulator gas ideal merupakan aplikasi berbasis web yang dirancang untuk 
         membantu mahasiswa dan pengguna dalam melakukan perhitungan hukum
         gas ideal secara cepat, akurat dan interaktif. Aplikasi ini mempermudah 
