@@ -578,9 +578,9 @@ elif menu == "Kotak Saran":
         Terimakasih telah mencoba web aplikasi ini. Dukungan, kritik dan saran 
         dari anda menjadi motivasi bagi kami untuk terus menghadirkan fitur yang lebih baik.
 
-        Tetaplah kuat
+        "Tetaplah kuat
         Walau kadang yang merusak mental justru
-        nilai mata uang rupiah yang semakin lemah
+        nilai mata uang rupiah yang semakin lemah" izin🫷
 
         
 
