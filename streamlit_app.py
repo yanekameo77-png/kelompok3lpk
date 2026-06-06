@@ -41,6 +41,8 @@ if menu == "Home":
     - Hukum Gay-Lussac
     - Gas Ideal (PV = nRT)
     - 📈 Regresi Linear (LINE CHART)
+    -Tentang aplikasi
+    -Kotak saran
     """)
 
     st.balloons()
