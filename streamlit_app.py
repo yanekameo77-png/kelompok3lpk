@@ -549,75 +549,59 @@ elif menu == "Kotak Saran":
     st.title("Kotak Saran📬")
 
     st.markdown("""
-    Berikan kritik dan saran untuk pengembangan web aplikasi kalkulator Gas Ideal.
-    """)
+    <div style="
+    background:linear-gradient(to right,#BFEFFF,#87CEFA);
+    padding:20px;
+    border-radius:15px;
+    color:black;
+    ">
+    <h3>💡 Kritik dan Saran</h3>
+    <p>
+    Berikan masukan untuk pengembangan web aplikasi
+    kalkulator Gas Ideal.
+    </p>
+    </div>
+    """,
+    unsafe_allow_html=True)
 
-    nama = st.text_input("Nama")
+    st.markdown("<br>", unsafe_allow_html=True)
+    <from action="https://formspree.io/f/ISI_ID_FORMSPREE_ANDA"
+    method="POST">
 
-    email_pengguna = st.text_input(E-mail")
+        <label>Nama</label><br>
+        <input type="text"
+               name="Nama"
+               required
+               style="width:100%;padding:10px;"><br><br>
 
-    saran = st.text_area(
-        "Tulis saran anda",
-        height=200
-    )
+        <label>Saran</label><br>
+        textarea
+            name="Saran"
+            rows="6"
+            required
+            style="width:100%;padding:10px;">
+        </textarea><br><br>
 
-    if st.button("Kirim saran📩"):
-         if nama == "" or saran == "":
-
-            st.warning("Lengkapi data terlebih dahulu.")
-
-         else:
-             try:
-
-                 pengirim = st.secrets["E-mail"]
-                 password = st.secrets["Password"]
-
-                 penerima = st.secrets["E-mail"]
-
-                 isi_email = f"""
-    Nama : {nama}
-
-    E-mail : {email_pengguna}
-
-    Saran : 
-    {saran}
+        <button type="submit"
+        style="
+        background:#1E90FF;
+        color:blue;
+        border:none;
+        padding:12px 20px;
+        border-radius:10px;
+        cursor:pointer;">
+        📩kirim saran
+        </button>
+            
+    </form>
     """
-                 msg = MIMEText(isi_email)
 
-                 msg["Subject"] = "Saran Web Aplikasi Gas Ideal"
-                 msg["From"] = pengirim
-                 msg["To"] = penerima
-
-                 server = smtplib.SMTP(
-                     "smtp.gmail.com",
-                     587
-                 )
-
-                 server.strattls()
-
-                 server.login(
-                     pengirim,
-                     password
-                 )
-
-                server.sendmail(
-                    pengirim,
-                    penerima,
-                    msg.as_string()
-                )
-
-                server.quit()
-
-                st.succes(
-                    "Saran berhasil dikirim."
-                )
-
-    except exception as e:
-
-        st.error(
-            f"Gagal mengirim e-mail: {e}"
-        )                
-
+    st.markdown(
+        form_code,
+        unsafe_allow_html=True
+    )
+            
+   
 #=========================
 # LATAR BELAKANG APK
 #=========================
