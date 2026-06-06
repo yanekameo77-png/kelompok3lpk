@@ -592,4 +592,4 @@ elif menu == "Kotak Saran":
 # FOOTER
 # =========================
 st.markdown("---")
-st.caption("🚀 Full Streamlit Version | Tanpa Matplotlib | Aman dijalankan")
+st.caption("🚀 Kelompok 3 kelas 1A | Aman dijalankan")
