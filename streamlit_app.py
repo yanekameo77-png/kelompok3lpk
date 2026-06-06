@@ -575,8 +575,8 @@ elif menu == "Kotak Saran":
         ✨ Terima Kasih Telah Berkunjung
         Semoga setiap perhitungan yang dilakukan dapat membantu anda memahami
         dunia gas ideal dengan lebih mudah dan menyenangkan.
-        Terimakasih telah mencoba web aplikasi ini. Dukungan, kriitk dan saran 
-        dari anda menjadi motivasi bagi kami untuk terus menghadirkan firut yang lebih baik.
+        Terimakasih telah mencoba web aplikasi ini. Dukungan, kritik dan saran 
+        dari anda menjadi motivasi bagi kami untuk terus menghadirkan fitur yang lebih baik.
 
         Tetaplah kuat
         Walau kadang yang merusak mental justru
